@@ -1,0 +1,23 @@
+.header {
+  position: fixed;
+  top: 24px;
+  left: 0;
+  right: 0;
+  z-index: 20;
+  text-align: center;
+  pointer-events: none;
+}
+
+.title {
+  margin: 0;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.brand {
+  color: var(--content-secondary);
+}
+
+.project {
+  color: var(--content-primary);
+}
